@@ -4,4 +4,5 @@ Translacja Python:
 BRAK
 
 Translacja Java:
-- Spark.port(5000) statement musi być ustawiany przed routami i metodami get() post() (linia 40) - semantic problem
+
+- Spark.port(5000) statement musi być ustawiany przed routami i metodami get() post() (linia 40) - runtime problem

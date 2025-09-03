@@ -1,7 +1,8 @@
 BŁĘDY
 
 Translacja C++:
-- trzeba było najpierw odjąć wektory a potem policzyć norm z tego, a nie odejmować wyniki normów (linie 45-51, 89-90) - logic problem
+- trzeba było najpierw odjąć wektory a potem policzyć norm z tego, a nie odejmować wyniki normów (linie 45-51, 89-90) - semantic/logic problem
 
 Translacja Java:
+
 BRAK

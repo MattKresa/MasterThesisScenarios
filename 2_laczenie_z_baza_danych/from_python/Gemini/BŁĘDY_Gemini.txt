@@ -1,7 +1,8 @@
 BŁĘDY
 
 Translacja C++:
-- Wywołało konstruktor do połączenia bez danych do nawiązania tegoż połączenia (wiersz 156) - semantic problem
+- Wywołało konstruktor do połączenia bez danych do nawiązania tegoż połączenia (wiersz 156) - runtime problem
 
 Translacja Java:
+
 BRAK

@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- wywołało nieistniejącą metodę .disconnect() na obiekcie klasy connection, trzeba było to usunąć (linia 131) - syntax problem

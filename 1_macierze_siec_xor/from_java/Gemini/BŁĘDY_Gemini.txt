@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- błąd tworzenia komentarza, prawdopodobnie pomyliło chwilowo komentowanie z Pythonem (wiersz 141-143) - syntax problem

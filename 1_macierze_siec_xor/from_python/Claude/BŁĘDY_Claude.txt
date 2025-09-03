@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+- Przeładowało operator do dodawania macierzy o tym samym rozmiarze, trzeba było dodawać macierz do wektora (wiersz 40) - logic problem
+
+Translacja Java:
+- Przeładowało operator do dodawania macierzy o tym samym rozmiarze, trzeba było dodawać macierz do wektora (wiersz 54) - logic problem

@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+BRAK
+
+Translacja Java:
+BRAK

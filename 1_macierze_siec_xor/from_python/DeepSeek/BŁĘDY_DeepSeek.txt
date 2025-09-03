@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja C++:
+- Trzeba było zrobić funkcję dot_scalar i podmienić ją przy mnożeniu przez learning_rate (wiersze 192 - 195) - logic problem
+- Przeładowało operator do dodawania macierzy o tym samym rozmiarze, trzeba było dodawać macierz do wektora (wiersz 77) - logic problem
+
+Translacja Java:
+BRAK

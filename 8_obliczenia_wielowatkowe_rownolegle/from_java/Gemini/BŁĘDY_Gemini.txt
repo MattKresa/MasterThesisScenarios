@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+- nie podało argumentu output_dir do funkcji (linia 72) - syntax error
+
+Translacja C++:
+BRAK

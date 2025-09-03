@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja Java:
+- zmienna użyta w lambda expression musiała mieć typ final (linie 94-97) - syntax problem

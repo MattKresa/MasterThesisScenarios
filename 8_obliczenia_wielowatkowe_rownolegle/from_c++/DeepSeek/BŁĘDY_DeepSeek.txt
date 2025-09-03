@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+- należało zmienić ThreadPoolExecutor na ProcessPoolExecutor (wieloprocesowość) gdyż w Pythonie wątek nie przyspieszy obliczeń procesora przez GIL (linia 65) - logic problem
+
+Translacja Java:
+BRAK

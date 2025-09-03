@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+- zapomniało dodać znak '\' przed znakiem apostrofu i przed s żeby określić klase (linia 67) - semantic problem
+
+Translacja C++:
+BRAK

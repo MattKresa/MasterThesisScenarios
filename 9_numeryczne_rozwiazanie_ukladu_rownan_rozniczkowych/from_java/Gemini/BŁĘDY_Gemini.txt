@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- nie wycięło spacji z końca klucza przez co nie znajdywało wzorca (linia 76) - semantic problem
+- zabrakło parsowania i wykonania wyrażenia przez ExprTk dla parametrów (linie 100-108) - logic problem

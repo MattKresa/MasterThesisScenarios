@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja C++:
+- nie zrobiło ewaluacji dla parametrów tylko zrobiło konwersje stringa do double przez co ucinało 8 w wyrażeniu 8.0 / 3.0 (linie 71-73) - logic problem
+- nie usuwało nawiasów kwadratowych z wektora y0 z początku i końca (linie 55-56) - logic problem
+
+Translacja Java:
+- iteration order of a Java HashMap is not guaranteed, we had to save variableNames to keep order and then take them iteratively (linie 112-115, 130-132) - semantic problem

@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja Java:
+- zła nazwa silnika, zadziałało mvel (linie 101, 143) - syntax problem

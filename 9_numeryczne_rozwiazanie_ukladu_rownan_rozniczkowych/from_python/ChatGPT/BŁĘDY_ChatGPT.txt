@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+- zabrakło wykonania (ewaluacji) wyrażenia przez ExprTk dla parametrów (linie 55-66) - logic problem
+
+Translacja Java:
+- zabrakło wykonania (ewaluacji) wyrażenia przez ExpressionBuilder dla parametrów (linie 44-46) - logic problem

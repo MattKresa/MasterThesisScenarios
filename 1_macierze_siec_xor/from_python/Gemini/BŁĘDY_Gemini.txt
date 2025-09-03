@@ -2,7 +2,8 @@ BŁĘDY
 
 Translacja C++:
 - Brak biblioteki <iomanip> - syntax problem, library problem
-- Dzieliło 1 / (MatrixXd) [1.0 / (1.0 + (-x.array()).exp()).matrix();] , a powinno 1 / ArrayXXd czyli [(1.0 / (1.0 + (-x.array()).exp())).matrix();] (wiersz 16) - semantic problem
+- Dzieliło 1 / (MatrixXd) [1.0 / (1.0 + (-x.array()).exp()).matrix();] , a powinno 1 / ArrayXXd czyli [(1.0 / (1.0 + (-x.array()).exp())).matrix();] (wiersz 16) - runtime problem
 
 Translacja Java:
+
 BRAK

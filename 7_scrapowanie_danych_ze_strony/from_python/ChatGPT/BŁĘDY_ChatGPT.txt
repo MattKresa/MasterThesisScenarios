@@ -1,7 +1,8 @@
 BŁĘDY
 
 Translacja C++:
-- przy parsowaniu tekstu nie uwzględniło że klasa 'author' nie znajduje się wewnątrz spana i tagu small, przez co w ogóle nie znajdowało autora (linie 89-99) - logic problem
+- przy parsowaniu tekstu nie uwzględniło że klasa 'author' nie znajduje się wewnątrz spana i tagu small, przez co w ogóle nie znajdowało autora (linie 89-99) - semantic/logic problem
 
 Translacja Java:
+
 BRAK

@@ -5,4 +5,5 @@ BRAK
 
 Translacja C++:
 - nie ma takiej funkcji jak gumbo_get_output, musiało zostać wywalone (linia 111) - syntax problem
-- zamiast pobierać nextLink po pustej klasie, trzeba było pobrać kolejne dziecko które jest GUMBO_NODE_ELEMENT i GUMBO_TAG_A (linie 185-194) - semantic problem
+
+- zamiast pobierać nextLink po pustej klasie, trzeba było pobrać kolejne dziecko które jest GUMBO_NODE_ELEMENT i GUMBO_TAG_A (linie 185-194) - runtime problem

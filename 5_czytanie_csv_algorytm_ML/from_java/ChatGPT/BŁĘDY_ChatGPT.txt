@@ -1,9 +1,10 @@
 BŁĘDY
 
 Translacja Python:
-- label enkodowany nie może być zrobiony w dataframie i potem przypisany, bo będzie zły typ danych i błąd wykonania - musi być bezpośrednio przypisany do zmiennej y (linia 13, 17) - semantic problem
+- label enkodowany nie może być zrobiony w dataframie i potem przypisany, bo będzie zły typ danych i błąd wykonania - musi być bezpośrednio przypisany do zmiennej y (linia 13, 17) - runtime problem
 
 Translacja C++:
 - niepotrzebne biblioteki powodujące błąd, wystarczy #include <mlpack.hpp> - syntax problem, library problem
-- wywołany jest MapString a po data::Load() z DatasetInfo są one już przekonwertowane do liczb wewnętrznie, trzeba je tylko odczytać (linia 40) - semantic problem
-- należało pomijać header z datasetu (linie 12-29) - logic problem
+- wywołany jest MapString a po data::Load() z DatasetInfo są one już przekonwertowane do liczb wewnętrznie, trzeba je tylko odczytać (linia 40) - runtime problem
+
+- należało pomijać header z datasetu (linie 12-29) - semantic/logic problem

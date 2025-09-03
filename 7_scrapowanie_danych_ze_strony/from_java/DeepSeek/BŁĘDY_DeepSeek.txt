@@ -4,5 +4,6 @@ Translacja Python:
 BRAK
 
 Translacja C++:
-- trzeba było sprawdzać czy jest puste pole zescrapowane przy zapisywaniu do csv, bez tego wychodziło poza zakres (linie 187-193) - semantic problem
-- nie uwzględniło że small znajduje się wewnątrz spana i trzeba było dorobić znak '/' w tagu (linia 129) - logic problem
+- trzeba było sprawdzać czy jest puste pole zescrapowane przy zapisywaniu do csv, bez tego wychodziło poza zakres (linie 187-193) - runtime problem
+
+- nie uwzględniło że small znajduje się wewnątrz spana i trzeba było dorobić znak '/' w tagu (linia 129) - semantic/logic problem

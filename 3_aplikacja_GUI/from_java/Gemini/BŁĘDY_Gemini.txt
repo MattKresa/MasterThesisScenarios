@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- nie podzielił tłumaczenia na pliki InteractiveApp.h, InteractiveApp.cpp i main.cpp, tylko wszystko w jednym pliku - syntax error
+- zła wartość typu dla klasy QSlider: było TicksBoth a powinno być TicksBothSides (linia 49 w InteractiveApp.cpp) - syntax error

@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+- nie podzielił tłumaczenia na pliki InteractiveApp.h, InteractiveApp.cpp i main.cpp, tylko wszystko w jednym pliku - syntax error
+
+Translacja Java:
+- zła nazwa metody: getSystemLookAndFeel() zamiast getSystemLookAndFeelClassName() (linia 189) - syntax error

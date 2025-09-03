@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja Java:
+- zła nazwa metody: getSystemLookAndFeel() zamiast getSystemLookAndFeelClassName() (linia 260) - syntax error

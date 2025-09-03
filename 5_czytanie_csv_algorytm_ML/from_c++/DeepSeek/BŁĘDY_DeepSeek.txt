@@ -4,4 +4,5 @@ Translacja Python:
 BRAK
 
 Translacja Java:
-- Weka Instance objects need to be associated with an Instances dataset before they can be used (linia 63) - semantic problem
+
+- Weka Instance objects need to be associated with an Instances dataset before they can be used (linia 63) - runtime problem

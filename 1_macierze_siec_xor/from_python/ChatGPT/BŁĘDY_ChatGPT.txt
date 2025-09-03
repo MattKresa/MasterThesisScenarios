@@ -1,8 +1,9 @@
 BŁĘDY
 
 Translacja C++:
-- wszystkie wystąpienia rowwise() musiały być zastąpione, gdyż to nie był wektor tylko macierz (linie 88, 60, 57) - semantic problem
+- wszystkie wystąpienia rowwise() musiały być zastąpione, gdyż to nie był wektor tylko macierz (linie 88, 60, 57) - runtime problem
 
 Translacja Java:
-- źle broadcastowało bias, próbowało do matrixa dodać wektor, trzeba było dodać funkcję broadcastującą bias, która powtarzała dodawanie do każdego wiersza (linie 45-53, 133, 89, 92) - semantic problem
-- sigmoidDerivative musiało zwracać matrix a nie wektor bo był rozjazd rozmiarów (linia 42) - semantic problem
+- źle broadcastowało bias, próbowało do matrixa dodać wektor, trzeba było dodać funkcję broadcastującą bias, która powtarzała dodawanie do każdego wiersza (linie 45-53, 133, 89, 92) - runtime problem
+
+- sigmoidDerivative musiało zwracać matrix a nie wektor bo był rozjazd rozmiarów (linia 42) - runtime problem

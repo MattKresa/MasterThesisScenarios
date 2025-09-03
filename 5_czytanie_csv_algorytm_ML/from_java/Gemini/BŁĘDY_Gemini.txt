@@ -4,4 +4,5 @@ Translacja Python:
 BRAK
 
 Translacja C++:
-- przy wczytywaniu csv zapomniało pomijać header i wywalało błąd lokalizacji pamięci, dodano std::getline(file, line) (line 48) - logic problem
+
+- przy wczytywaniu csv zapomniało pomijać header i wywalało błąd lokalizacji pamięci, dodano std::getline(file, line) (line 48) - semantic/logic problem

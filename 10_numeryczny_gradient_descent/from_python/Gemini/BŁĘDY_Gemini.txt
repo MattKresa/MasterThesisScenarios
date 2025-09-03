@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja C++:
+- in c++ there are no named parameters, they had to be removed (linia 117) - syntax problem
+- nie zrobiło randomowego inicjalnego wektora (linie 108-115) - logic problem
+
+Translacja Java:
+BRAK

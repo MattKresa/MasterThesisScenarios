@@ -1,7 +1,8 @@
 BŁĘDY
 
 Translacja Python:
-- sympify was interpreting some variable names as SymPy function classes rather than symbols (lines 65-116) - semantic problem
+- sympify was interpreting some variable names as SymPy function classes rather than symbols (lines 65-116) - runtime problem
 
 Translacja Java:
+
 BRAK

@@ -1,7 +1,8 @@
 BŁĘDY
 
 Translacja C++:
-- brak definicji _USE_MATH_DEFINES do użycia M_PI (linia 1) - syntax problem, library problem
+- brak definicji _USE_MATH_DEFINES do użycia M_PI (linia 1) - syntax problem
 
 Translacja Java:
+
 BRAK

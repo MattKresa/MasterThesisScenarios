@@ -1,8 +1,9 @@
 BŁĘDY
 
 Translacja Python:
-- należało zmienić ThreadPoolExecutor na ProcessPoolExecutor (wieloprocesowość) gdyż w Pythonie wątek nie przyspieszy obliczeń procesora przez GIL (linia 74) - logic problem
+- należało zmienić ThreadPoolExecutor na ProcessPoolExecutor (wieloprocesowość) gdyż w Pythonie wątek nie przyspieszy obliczeń procesora przez GIL (linia 74) - semantic/logic problem
 
 Translacja Java:
 - zmienna użyta w lambda expression musiała mieć typ final (linie 93-96) - syntax problem
-- ExecutorService nie implementuje AutoCloseable, więc nie można używać go bezpośrednio w try, trzeba obudować w try kod który z executor korzysta (linie 86-110) - semantic error
+
+- ExecutorService nie implementuje AutoCloseable, więc nie można używać go bezpośrednio w try, trzeba obudować w try kod który z executor korzysta (linie 86-110) - runtime error

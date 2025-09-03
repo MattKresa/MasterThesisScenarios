@@ -2,9 +2,10 @@ BŁĘDY
 
 Translacja C++:
 - GUMBO_TAG_TEXT is not a valid tag in Gumbo, Gumbo's text content is not represented as a tag, but as a node of type GUMBO_NODE_TEXT (linia 110) - syntax problem
-- brak GUMBO_TAG_LI który zawiera kluczową klasę i przez to jej nie znajdowało (linia 65) - logic problem
-- przy pobraniu dziecka trzeba było brać kolejny element który jest GUMBO_NODE_ELEMENT, często były GUMBO_NODE_WHITESPACE i nie znajdowało (linie 74-80) - semantic problem
-- zamiast pobierać next_a po pustej klasie, trzeba było pobrać kolejne dziecko które jest GUMBO_NODE_ELEMENT i GUMBO_TAG_A (linie 161-170) - semantic problem
+- brak GUMBO_TAG_LI który zawiera kluczową klasę i przez to jej nie znajdowało (linia 65) - semantic/logic problem
+- przy pobraniu dziecka trzeba było brać kolejny element który jest GUMBO_NODE_ELEMENT, często były GUMBO_NODE_WHITESPACE i nie znajdowało (linie 74-80) - runtime problem
+- zamiast pobierać next_a po pustej klasie, trzeba było pobrać kolejne dziecko które jest GUMBO_NODE_ELEMENT i GUMBO_TAG_A (linie 161-170) - runtime problem
 
 Translacja Java:
+
 BRAK

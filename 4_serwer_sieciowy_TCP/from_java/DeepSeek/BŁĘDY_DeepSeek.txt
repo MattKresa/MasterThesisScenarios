@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- brak biblioteki <algorithm> (linia 13) - syntax problem, library problem

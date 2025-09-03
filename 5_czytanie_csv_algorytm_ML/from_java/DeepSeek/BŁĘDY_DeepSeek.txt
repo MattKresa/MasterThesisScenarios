@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+- label nie może być zrobiony w dataframie i potem przypisany, bo będzie zły typ danych i błąd wykonania - musi być bezpośrednio przypisany do zmiennej y (linia 15, 19) - semantic problem
+
+Translacja C++:
+- przy wczytywaniu csv zapomniało pomijać header i wywalało błąd lokalizacji pamięci, dodano getline(file, line) (line 69) - logic problem

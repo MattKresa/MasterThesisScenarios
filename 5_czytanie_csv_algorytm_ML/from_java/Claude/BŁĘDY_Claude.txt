@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+BRAK

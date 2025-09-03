@@ -1,0 +1,9 @@
+BŁĘDY
+
+Translacja C++:
+- niepotrzebna bilioteka która powodowała problemy z png_loader mimo że nie używamy tu zdjęć (linia 6) - syntax problem, library problem
+- zrobiło train-test split bez randomizacji (linie 94-103) - logic problem
+- zrobiło algorytm Kernel Ridge Regressor a nie KNN - logic problem
+
+Translacja Java:
+BRAK

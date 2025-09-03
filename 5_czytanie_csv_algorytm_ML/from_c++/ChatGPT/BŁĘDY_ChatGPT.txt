@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja Java:
+- niepotrzebna biblioteka BaseVector powodująca błąd bo nie istnieje, trzeba było usunąć (linia 11) - syntax problem
+- zła nazwa metody: powinno być fit zamiast learn (linia 85) - syntax problem

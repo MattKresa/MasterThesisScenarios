@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+- zabrakło biblioteki #include <numeric> (linia 10) - syntax problem, library problem
+
+Translacja Java:
+BRAK

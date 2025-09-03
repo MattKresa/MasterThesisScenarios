@@ -1,0 +1,9 @@
+BŁĘDY
+
+Translacja C++:
+- brak biblioteki #include <chrono> (linia 11) - syntax problem, library problem
+- zła nazwa funkcji InetPton zamiast inet_pton (linia 238) - syntax problem
+- niepotrzebne finally które nie istnieje w c++ (linia 193) - syntax problem
+
+Translacja Java:
+BRAK

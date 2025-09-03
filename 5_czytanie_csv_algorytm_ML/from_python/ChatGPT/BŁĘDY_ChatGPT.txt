@@ -1,0 +1,9 @@
+BŁĘDY
+
+Translacja C++:
+- niepotrzebne biblioteki powodujące błąd, wystarczy #include <mlpack.hpp> - syntax problem, library problem
+- niepotrzebna transpozycja macierzy X_test, X_train (linie 58, 62) - semantic problem
+- należało pomijać header z datasetu (linie 11-29) - logic problem
+
+Translacja Java:
+BRAK

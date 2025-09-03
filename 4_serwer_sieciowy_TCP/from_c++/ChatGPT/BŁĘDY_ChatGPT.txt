@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+- printowanie w broadcast o serwerze przy wyjściu usera nie mogło być w with clients_lock section, bo nie wypisywało nic (linie 105-106) - semantic problem
+
+Translacja Java:
+BRAK

@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- niepotrzebne finally które nie istnieje w c++ (linia 227) - syntax error
+- należało przenieść funkcję ChatServer::start() poniżej klasę ClientHandler, bez tego funkcja nie widzi klasy co powoduje błąd gdyż funkcja z niej korzysta (linie 241-318) - syntax error

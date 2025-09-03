@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- przy parsowaniu tekstu nie uwzględniło że klasa 'author' znajduje się wewnątrz spana i tagu small, przez co w ogóle nie znajdowało autora (linie 106-116) - logic problem

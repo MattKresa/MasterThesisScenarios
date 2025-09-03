@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+- zamiast pobierać next_a po pustej klasie, trzeba było pobrać kolejne dziecko które jest GUMBO_NODE_ELEMENT i GUMBO_TAG_A (linie 230-240) - semantic problem
+
+Translacja Java:
+BRAK

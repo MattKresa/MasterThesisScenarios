@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+- złe nazwy bibliotek (linie 1-2) - syntax problem, library problem
+
+Translacja Java:
+BRAK

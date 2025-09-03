@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- zła nazwa biblioteki: było "crow_all.h" zamiast "crow.h" (linia 1) - syntax problem, library problem

@@ -1,0 +1,7 @@
+BŁĘDY
+
+Translacja C++:
+- zła nazwa biblioteki: było "json.hpp" zamiast #include "nlohmann\json.hpp" (linia 3) - syntax problem, library problem
+
+Translacja Java:
+- podczas update'u tylko jednego pola, w inne pola wpisywał się null (linie 128-133) - logic problem

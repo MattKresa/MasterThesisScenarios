@@ -1,0 +1,8 @@
+BŁĘDY
+
+Translacja Python:
+BRAK
+
+Translacja C++:
+- złe nazwy bibliotek (linie 1-2) - syntax problem, library problem
+- zła nazwa metody do usuwania: było DELETE zamiast Delete (linia 122) - syntax problem
